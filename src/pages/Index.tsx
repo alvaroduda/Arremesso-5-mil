@@ -126,10 +126,10 @@ const Index = () => {
               {[
                 { week: "Aquecimento", title: "Preparação" },
                 { week: "Semana 1", title: "Volume" },
-                { week: "Semana 2", title: "Volume" },
+                { week: "Semana 2", title: "Índice de acerto/Aproveitamento" },
                 { week: "Semana 3", title: "Sequência de acerto"},
                 { week: "Semana 4", title: "Situações de jogo"},
-                { week: "Semana Bônus", title: "Situações de jogo" }
+                { week: "Semana Bônus", title: "Conteúdos extras" }
               ].map((item, index) => (
                 <Card key={index} className="p-5 hover:shadow-md transition">
                   <div className="flex items-start gap-4">
@@ -171,7 +171,7 @@ const Index = () => {
         </section>
       </main>
 
-      {/* Footer */}
+      
       <footer className="bg-gray-900 text-white py-10 text-center">
         <div className="flex justify-center items-center gap-2 mb-4">
         <img src={logoImage} alt="Logo" className="w-10 h-10 rounded-full object-cover" />
